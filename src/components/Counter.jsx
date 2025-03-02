@@ -6,6 +6,7 @@ const Counter = () => {
     const decrement = () => setCount(count-1)
   return (
     <div className="container">
+      <h1>1: Counter</h1>
         <div>
             <h1 className="number">{count}</h1>
         </div>
