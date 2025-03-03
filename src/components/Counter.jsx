@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "../style.css";
+import "../counter.css";
 const Counter = () => {
     const [count, setCount] = useState(0);
     const increment = () => setCount(count+1)

@@ -16,7 +16,6 @@ This is a simple React-based counter application that allows users to increment 
 1. Clone the repository:
    ```sh
    git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
-   cd counter
    ```
 2. Install dependencies:
    ```sh
@@ -55,7 +54,6 @@ This is a simple React-based Todo application that allows users to add and remov
 1. Clone the repository:
    ```sh
    git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
-   cd todo
    ```
 2. Install dependencies:
    ```sh
@@ -77,3 +75,97 @@ This is a simple React-based Todo application that allows users to add and remov
 - React
 - JavaScript (ES6+)
 - CSS
+
+# 3. Meals API Project
+
+This is a React-based application that fetches and displays a collection of seafood meals using an external API.
+
+## Features
+
+- Fetches seafood meals from [TheMealDB API](https://www.themealdb.com/)
+- Displays meal names, images, and meal IDs
+- Uses React's `useState` and `useEffect` hooks for state management and data fetching
+- Styled with an external CSS file (`style.css`)
+
+## Installation & Setup
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+
+## Usage
+
+- The app automatically fetches seafood meals from the API on load.
+- Meals are displayed with their names, images, and IDs.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- Axios (for API requests)
+- CSS
+
+# 4. Calculator
+
+This project contains a simple calculator built with React.
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Clear button to reset the input.
+- Responsive design with a modern look.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS
+
+## Usage
+
+To use the calculator component, import it into your React application and include it in your JSX.
+
+```jsx
+import Calculator from './components/Calculator';
+
+function App() {
+  return (
+    <div className="App">
+      <Calculator />
+    </div>
+  );
+}
+
+export default App;
+```
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd 10_Beginner_Project_React
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+
+
