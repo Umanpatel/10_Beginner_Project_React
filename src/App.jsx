@@ -1,6 +1,8 @@
 import Calculator from "./components/Calculator"
 import Counter from "./components/Counter"
+import Hiddensearchbar from "./components/HiddenSearchBar"
 import Meals from "./components/Meals"
+import Testimonials from "./components/Testimonials"
 import Todo from "./components/Todo"
 import ToggelBackgroundColor from "./components/ToggelBackgroundColor"
 
@@ -11,7 +13,9 @@ const App = () => {
       {/* <Todo/> */}
       {/* <Meals/> */}
       {/* <Calculator/> */}
-      <ToggelBackgroundColor/>
+      {/* <ToggelBackgroundColor/> */}
+      {/* <Hiddensearchbar/> */}
+      <Testimonials/>
     </div>
   )
 }
