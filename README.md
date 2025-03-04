@@ -11,21 +11,6 @@ This is a simple React-based counter application that allows users to increment 
 - Uses React's `useState` hook for state management
 - Styled with an external CSS file (`style.css`)
 
-## Installation & Setup
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm start
-   ```
-
 ## Usage
 
 - Click `+` to increase the count.
@@ -38,7 +23,7 @@ This is a simple React-based counter application that allows users to increment 
 - CSS
 
 
-# 2. Todo App
+# 2. Todo
 
 This is a simple React-based Todo application that allows users to add and remove tasks.
 
@@ -48,21 +33,6 @@ This is a simple React-based Todo application that allows users to add and remov
 - Remove completed todos
 - Uses React's `useState` hook for state management
 - Styled with an external CSS file (`style.css`)
-
-## Installation & Setup
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm start
-   ```
 
 ## Usage
 
@@ -86,21 +56,6 @@ This is a React-based application that fetches and displays a collection of seaf
 - Displays meal names, images, and meal IDs
 - Uses React's `useState` and `useEffect` hooks for state management and data fetching
 - Styled with an external CSS file (`style.css`)
-
-## Installation & Setup
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/Umanpatel/10_Beginner_Project_React.git
-   ```
-2. Install dependencies:
-   ```sh
-   npm install
-   ```
-3. Start the development server:
-   ```sh
-   npm start
-   ```
 
 ## Usage
 
@@ -147,6 +102,45 @@ function App() {
 
 export default App;
 ```
+
+# 5. Toggle Background
+
+This project contains a simple background toggle built with React.
+
+## Features
+
+- Toggle between two background colors.
+- Simple and clean design.
+
+## Technologies Used
+
+- React
+- JavaScript (ES6+)
+- CSS
+
+## Usage
+
+To use the toggle background component, import it into your React application and include it in your JSX.
+
+```jsx
+import ToggleBackground from './components/ToggleBackground';
+
+function App() {
+  return (
+    <div className="App">
+      <ToggleBackground />
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
 
 ## Installation
 
