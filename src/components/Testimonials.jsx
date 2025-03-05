@@ -18,7 +18,7 @@ const Testimonials = () => {
     ];
     const handlePrevClick = () => {
         setCurrentIndex((currentIndex + testimonials.length -1) % testimonials.length);
-    };
+    }
     const handleNextClick = () => setCurrentIndex((currentIndex + 1) % testimonials.length);
     
 
